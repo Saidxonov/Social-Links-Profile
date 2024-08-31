@@ -1,0 +1,247 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  width: 384px;
+  height: 611px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #141414;
+  height: 700px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.card {
+  background-color: #1f1f1f;
+  width: 384px;
+  height: 611px;
+  gap: 24px;
+  border-radius: 12px;
+  margin-top: 174px;
+}
+
+.user-image {
+  padding-top: 4rem;
+  padding-left: 14.8rem;
+}
+
+.user-info {
+  width: 304px;
+  height: 61px;
+  text-align: center;
+  padding-left: 7rem;
+  padding-top: 2.4rem;
+}
+
+.user-name h1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.user-map p {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 21px;
+  color: #c4f82a;
+  padding-top: 0.4rem;
+}
+
+.user-bio p {
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  padding-top: 3.7rem;
+  text-align: center;
+}
+
+.links {
+  width: 304px;
+  height: 45px;
+  padding: 12px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: #333333;
+  margin-left: 4rem;
+  margin-top: 2.4rem;
+  transition: 0.3s;
+}
+
+.github {
+  margin-top: 1.6rem;
+  width: 304px;
+  height: 45px;
+  padding: 12px;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: #333333;
+  transition: 0.3s;
+  margin-left: 4rem;
+}
+
+.github a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.github p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.github:hover {
+  background-color: #c4f82a;
+  color: #333333;
+  transition: 0.3s;
+}
+
+.github p:hover {
+  color: #333333;
+}
+
+.github a:hover {
+  color: #333333;
+}
+
+@media (max-width: 654px) {
+  .card {
+    background-color: #1f1f1f;
+    width: 384px;
+    height: 611px;
+    gap: 24px;
+    border-radius: 12px;
+    margin-top: 174px;
+    margin-left: -3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    background-color: #1f1f1f;
+    width: 327px;
+    height: 599px;
+    top: 116px;
+    left: 24px;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 12px;
+    margin-top: 174px;
+  }
+  .user-image {
+    padding-top: 4rem;
+    padding-left: 10rem;
+  }
+  .user-info {
+    width: 279px;
+    height: 61px;
+    gap: 4px;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-top: 2.4rem;
+  }
+  .links {
+    width: 279px;
+    height: 289px;
+    background-color: #333333;
+    margin-left: 7rem;
+    margin-top: 2.4rem;
+    transition: 0.3s;
+  }
+  .github {
+    margin-top: 1.6rem;
+    width: 279px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #333333;
+    transition: 0.3s;
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 410px) {
+  .card {
+    background-color: #1f1f1f;
+    width: 284px;
+    height: 611px;
+    gap: 24px;
+    border-radius: 12px;
+    margin-top: 174px;
+    margin-left: 1rem;
+  }
+  .links {
+    width: 179px;
+    height: 289px;
+    background-color: #333333;
+    margin-left: -3rem;
+    margin-top: 2.4rem;
+    transition: 0.3s;
+  }
+  .user-image {
+    padding-top: 4rem;
+    padding-left: 6.8rem;
+  }
+  .user-info {
+    width: 304px;
+    height: 61px;
+    text-align: center;
+    padding-right: 10rem;
+    padding-top: 2.4rem;
+  }
+  .user-bio p {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    padding-top: 3.7rem;
+    text-align: center;
+    padding-right: 2rem;
+  }
+  .github {
+    margin-top: 1.6rem;
+    width: 230px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #333333;
+    transition: 0.3s;
+    margin-left: 0rem;
+  }
+}
